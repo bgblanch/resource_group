@@ -15,12 +15,12 @@ variable "namespace" {
 
 variable "tags" {
     description     = "Map of tags to apply to the resource group"
-    type            = "map"
+    type            = map
     default         = {}
 }
 
 variable "global_tags" {
     description     = "Map of tags to apply to all resources that have tags parameters"
-    type            = "map"
+    type            = map
     default         = {}
 }
